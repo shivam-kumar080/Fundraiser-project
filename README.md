@@ -1,61 +1,29 @@
-# Fundraiser: A Crowdfunding Platform  
-*"Empowering Dreams, One Contribution at a Time"*  
+## Linked To Demo
+https://devpost.com/software/charity-change
 
-## Overview  
-Fundraiser is a modern, user-friendly crowdfunding platform designed to connect project creators with potential donors. The platform ensures transparency, security, and efficiency in fundraising, leveraging Java at its core for backend development.  
+## Inspiration
+Weeks of wildfires left Australia with $100 billion in damages. This included 25 million acres burned and 1 billion animals fearing for their lives. Inspired by helping out similar sustainability efforts, we decided to come with a solution that encouraged more people to donate to charities. 
+In the USA alone, the population is approximately 300 million people, where 60% of them donate. Therefore, approximately 200 million donate. Additionally, The Nature Conservancy states that it costs approximately $1-3 to plant a tree. As a result, if 200 million people donate just $1 per day, within the span of a year, 70% of Australia's Wildfire damages will have been met. 
 
----
+## What it does
+Charity Change allows users to donate their spare everyday change from purchase to charities of their choice. You simply connect your credit card, choose a charity, and donate. 
 
-## Features  
-- **Simple Campaign Creation**: Users can easily create and customize campaigns.  
-- **Secure Payment Integration**: Ensures safe and reliable transactions.  
-- **Real-Time Campaign Tracking**: Provides donors and creators with insights into campaign performance.  
-- **Ratings and Reviews**: Builds a trustworthy ecosystem for donors and creators.  
+## How we built it
+We used Java as our back-end language with Spring and plain html/css/javascript on the front-end. The website is hosted on an AWS ec2-instance and storing information to a SQL database. 
 
----
+## Challenges we ran into
 
-## Why Java?  
-Java was chosen as the primary backend language due to its:  
-- **Platform Independence**: Ensuring compatibility across diverse environments.  
-- **Robust Ecosystem**: A rich set of libraries and frameworks enhances functionality and performance.  
-- **Scalability**: Handles increasing traffic and data load effectively.  
-- **Security Features**: Essential for secure payment gateways and user data management.  
+The goal of the project was to set up a donation service. However, we were not able to complete the bank functionality, where the user's bank records are listed on the website, giving the user the option to donate their pocket change. This requires using some kind of API or software we do not currently have access to, so we decided to make this application as realistic as possible, knowing full well we will resolve this issue in the near future. 
 
----
+## Accomplishments that we're proud of
 
-## Tech Stack  
-- **Frontend**:  
-  - HTML, CSS, JavaScript for an interactive and responsive user interface.  
+We are proud of our user interface, since we realize that in order to increase donations, users should not be struggling to navigate the website. We spent extra time making the buttons, colors, and text boxes look aesthetically pleasing for the user. 
 
-- **Backend**:  
-  - **Java**: The backbone of the project, used for:  
-    - Processing and validating user input.  
-    - Managing data flow between the frontend and database.  
-    - Implementing business logic, such as campaign creation and tracking.  
+## What we learned
 
-- **Database**:  
-  - **MySQL**: Used to store and manage campaign details, user information, and transaction history.  
+We learned how to deploy a web application using the AWS EC2 server.
 
-- **Framework**:  
-  - React.js for building dynamic and reusable UI components.  
+## What's next for Charity Change
 
-- **Hosting**:  
-  - GitHub Pages for deploying the frontend.  
-
----
-
-## How It Works  
-1. **Campaign Creation**:  
-   Users can create campaigns with details such as goals, timelines, and descriptions.  
-
-2. **Donations**:  
-   Donors browse campaigns and make secure contributions.  
-
-3. **Tracking Progress**:  
-   Both creators and donors can monitor campaign performance through real-time analytics.  
-
-4. **Transparency**:  
-   Regular updates ensure donors stay informed about campaign developments.  
-
----
+So far, we have created a website for users to find a certain charity and donate their pocket change. We have added functionality so the user can add his or her credit card, but we haven't yet worked on transferring the funds from one account into the desired charity. Our next steps are to link increase security and authorization, connect with many banks to attract more users, and add more charitable organizations.
 
