@@ -1,5 +1,4 @@
-## Linked To Demo
-https://devpost.com/software/charity-change
+#Fundraiser
 
 # User Management System  
 
